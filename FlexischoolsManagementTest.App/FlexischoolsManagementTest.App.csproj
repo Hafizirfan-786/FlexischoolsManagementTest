@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="FlexischoolsManagementAPI.App">
+      <HintPath>..\FlexischoolsManagementTest.API\bin\Debug\net8.0\FlexischoolsManagementAPI.App.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexischoolsManagementTest.API">
+      <HintPath>..\FlexischoolsManagementTest.API\bin\Debug\net8.0\FlexischoolsManagementTest.API.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexischoolsManagementTest.DomainModel">
+      <HintPath>..\FlexischoolsManagementTest.DomainModel\bin\Debug\net8.0\FlexischoolsManagementTest.DomainModel.dll</HintPath>
+    </Reference>
+    <Reference Include="FlexischoolsManagementTest.Structure">
+      <HintPath>..\FlexischoolsManagementTest.structure\bin\Debug\net8.0\FlexischoolsManagementTest.Structure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
